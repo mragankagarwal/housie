@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.w3.org/1999/xhtml" xmlns:td="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Ticket Generator</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta charset=utf-8/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css"/>
+    <script type="text/javascript" src="/assets/js/script.js"></script>
+</head>
+<!--<body>-->
+<!--<p th:text="'Hello, ' + ${name} + '!'"></p>-->
+<!--</body>-->
+<body>
+<h1 align="center">Housie Ticket Generator</h1>
+<h4 align="center"><a href="/generate-tickets" id="newCard">Click me for a new card</a></h4>
+<h4 align="center"><a href="#" id="printBut">Print</a></h4>
+<div class="header" id="printarea"></div>
+<table id="BigTable">
+    <tr th:each="ticket : ${tickets}">
+        <td>
+            <div>
+                <table class="innerTable">
+                    <tr th:each="row : ${ticket.numbers}">
+                        <td th:each="cell : ${row}" th:classappend="${cell}!=0 ? number">
+                            <span th:text="${cell}" class="diag1" th:if="${cell}!=0"></span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+        <!--<td th:text="${message.id}">1</td>-->
+        <!--<td><a href="#" th:text="${message.title}">Title ...</a></td>-->
+        <!--<td th:text="${message.text}">Text ...</td>-->
+    </tr>
+</table>
+</div>
+</body>
+</html>
+</body>
+</html>

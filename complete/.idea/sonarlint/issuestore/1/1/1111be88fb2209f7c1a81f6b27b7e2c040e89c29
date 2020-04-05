@@ -1,0 +1,33 @@
+
+U	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(ñúº
+NWeb:AvoidCommentedOutCodeCheck"Remove this commented out code.(Ò¸²ûÿÿÿÿ
+IWeb:AvoidCommentedOutCodeCheck"Remove this commented out code.(ÀÖŸÒ
+>	Web:S1827")Remove this deprecated "align" attribute.(Ô°×‚
+>	Web:S1827")Remove this deprecated "align" attribute.(­ª•ó
+>	Web:S1827")Remove this deprecated "align" attribute.(¸¼èğ
+MWeb:TableWithoutCaptionCheck" Add a description to this table.(ŠíÃúÿÿÿÿ
+?	Web:S5256"%Add "<th>" headers to this "<table>".(ŠíÃúÿÿÿÿ
+MWeb:TableWithoutCaptionCheck" Add a description to this table.(èÄÊáøÿÿÿÿ
+?	Web:S5256"%Add "<th>" headers to this "<table>".(èÄÊáøÿÿÿÿ
+MWeb:TableWithoutCaptionCheckB" Add a description to this table.(œ—œÿüÿÿÿÿ
+?	Web:S5256B"%Add "<th>" headers to this "<table>".(œ—œÿüÿÿÿÿ
+MWeb:TableWithoutCaptionCheckk" Add a description to this table.(É„úĞøÿÿÿÿ
+?	Web:S5256k"%Add "<th>" headers to this "<table>".(É„úĞøÿÿÿÿ
+IWeb:TableWithoutCaptionCheck•" Add a description to this table.(Œ…ÿË
+;	Web:S5256•"%Add "<th>" headers to this "<table>".(Œ…ÿË
+NWeb:TableWithoutCaptionCheck¾" Add a description to this table.(­œº¼şÿÿÿÿ
+@	Web:S5256¾"%Add "<th>" headers to this "<table>".(­œº¼şÿÿÿÿ
+IWeb:TableWithoutCaptionCheckç" Add a description to this table.(»Ù«Ü
+;	Web:S5256ç"%Add "<th>" headers to this "<table>".(»Ù«Ü
+NWeb:TableWithoutCaptionCheck”" Add a description to this table.(û±¬‹ıÿÿÿÿ
+@	Web:S5256”"%Add "<th>" headers to this "<table>".(û±¬‹ıÿÿÿÿ
+IWeb:TableWithoutCaptionCheck¾" Add a description to this table.(ÉÏ§‰
+;	Web:S5256¾"%Add "<th>" headers to this "<table>".(ÉÏ§‰
+NWeb:TableWithoutCaptionCheckç" Add a description to this table.(§İº¶üÿÿÿÿ
+@	Web:S5256ç"%Add "<th>" headers to this "<table>".(§İº¶üÿÿÿÿ
+IWeb:TableWithoutCaptionCheck‘" Add a description to this table.(Ç®ñö
+;	Web:S5256‘"%Add "<th>" headers to this "<table>".(Ç®ñö
+NWeb:TableWithoutCaptionCheckº" Add a description to this table.(İ‘¢»üÿÿÿÿ
+@	Web:S5256º"%Add "<th>" headers to this "<table>".(İ‘¢»üÿÿÿÿ
+HWeb:TableWithoutCaptionCheckã" Add a description to this table.(ÕáÊa
+:	Web:S5256ã"%Add "<th>" headers to this "<table>".(ÕáÊa
