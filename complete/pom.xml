@@ -49,23 +49,22 @@
 	</dependencies>
 
 	<build>
-		<build>
-			<plugins>
-				<plugin>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-maven-plugin</artifactId>
-					<executions>
-						<execution>
-							<configuration>
-								<mainClass>com.example.servingwebcontent.ServingWebContentApplication</mainClass>
-							</configuration>
-						</execution>
-					</executions>
-					<configuration>
-						<executable>true</executable>
-					</configuration>
-				</plugin>
-			</plugins>
-		</build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<configuration>
+							<mainClass>com.example.servingwebcontent.ServingWebContentApplication</mainClass>
+						</configuration>
+					</execution>
+				</executions>
+				<configuration>
+					<executable>true</executable>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>
